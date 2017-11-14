@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508811843 source:c:\users\memos\google drive\carrera\1er semestre\progra\neighbor\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508878417 source:c:\users\memos\google drive\carrera\1er semestre\progra\3426 triangle side sum\main.cpp
+	<stdio.h>
+	<cmath>
+	<algorithm>
+
