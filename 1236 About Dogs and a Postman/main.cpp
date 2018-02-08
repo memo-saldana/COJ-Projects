@@ -12,12 +12,10 @@ int main()
 
         cin>>N;
 
-        cout<<N % (A+B) <<endl;
-
         if( N % (A+B) <=A && N % (C+D)<=C){
             cout<<"both"<<endl;
         }
-        else if(N%(A+B)>A && N%(C+D)>C){
+        else if((N%(A+B)>A ||N%(A+B)==0)&& (N%(C+D)>C || N%(C+D)==0)){
             cout<<"none"<<endl;
         }
         else{
