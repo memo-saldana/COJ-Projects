@@ -11,9 +11,9 @@ int main()
   {
     cin>>str;
 
-    if(str.size()-1>10)
+    if(str.length()>10)
     {
-      cout<<str.at(0)<<str.size()-2<<str.at(str.size()-1)<<endl;
+      cout<<str[0]<<str.length()-2<<str[str.length()-1]<<endl;
     }
     else
     {
